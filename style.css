@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+.header {
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    background-image: url(./src/images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3f6e92;
+}
+
+.header-logo {
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+.order-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.3em;
+}
+
+.order-list li {
+    padding-right: 1em;
+}
+
+.right-content2 {
+    display: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 821px) {
+
+    /* for ipads and tablets */
+    .header {
+        background-size: contain;
+        height:240px;
+        padding: 1%;
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    /* mobile */
+    .header-items2 {
+        display: none;
+    }
+
+    .right-content2 {
+        display: inherit;
+        padding: 1%;
+    }
+}
+
+
+/* MAIN content1/content2/content3/content4 STARTS HERE  */
+@media screen and (max-width:500px) {
+    /* mobile */
+    .icon-div,.wrapper,.details-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .icon-div,.icon-html,.css-icon,.seo-icon,.user-icon,.details-container,.google-search,.marketing,.happy-customers{
+      width:100%;
+      border: 2px solid red;
+    }
+}
+
+.icon-div {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.icon-html {
+    width:100%;
+    background-color: #f1a990;
+    text-align: center;
+}
+
+.css-icon {
+    width:100%;
+    background-color: #8be9ad;
+    text-align: center;
+}
+
+.seo-icon {
+    width: 100%;
+    background-color: #aadcd1;
+    text-align: center;
+}
+
+.user-icon {
+    width: 100%;
+    background-color: rgb(161, 177, 193);
+    text-align: center;
+}
+
+.icon-div .fa-brands {
+    color: white;
+    font-size: 5em;
+    padding-top: 1em;
+}
+
+.fa {
+    color: white;
+    font-size: 5em;
+    padding-top: 1em;
+}
+
+
+@media screen and (max-width:821px) {
+
+    .wrapper {
+        width: 100vw;
+
+    }
+
+    .child1,
+    .child2 {
+        width: 50vw;
+        border: 2px solid red;
+    }
+
+    .child1 img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .wrapper {
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .child1,
+    .child2 {
+        width: 100vw;
+    }
+
+    img {
+        width: 375px;
+    }
+
+}
+/* responsove for mobile */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c3d7de;
+
+}
+
+.child1,
+.child2 {
+    flex: 1;
+}
+.child2 h1{
+    font-size:1.2rem;
+}
+
+.details-divv {
+    background-color: #a1b1c1;
+    text-align: center;
+    padding: 10px;
+}
+
+.details-divv2 {
+    background-color: #bcb8ac;
+    text-align: center;
+    padding: 10px;
+}
+
+.details-divv3 {
+    background-color: #f1a990;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* content5 starts here */
+.details-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.google-search {
+    background-color: rgb(161, 177, 193);
+    padding: 10px;
+    border: none;
+}
+
+h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+p {
+    color: white;
+    padding-top: 1em;
+}
+
+.marketing {
+    background-color: #a29c5d;
+    padding-top: 1em;
+    border: none;
+}
+
+.happy-customers {
+    background-color: rgb(170, 220, 209);
+    padding-top: 1em;
+    border: none;
+}
+
+.smile-div {
+    background-color: rgb(170, 220, 209);
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* footer design starts here */
+.footer-icon {
+    background-color: #678ea8;
+     display: flex;
+     justify-content: space-around;
+      width: 100%;
+}
+
+footer i{
+    color: white;
+    font-size:2.5em;
+    padding-top: 1em;
+    margin:0% 0% 2% 0%;
+}
+
+.maxpower {
+    text-align: center;
+    background-color: #554859;
+}
+
+@media screen and (max-width) {
+    
+}
